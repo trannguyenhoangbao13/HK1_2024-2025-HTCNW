@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 100px;
+            width: 1089px;
+            background-color: rgb(215, 238, 250);
+        }
+        
+        menu {
+            height: 50px;
+            width: 100%;
+            background-color: blue;
+            float: left;
+        }
+        
+        header {
+            height: 150px;
+            width: 100%;
+            background-color: rgb(0, 255, 140);
+            float: left;
+        }
+        
+        section {
+            height: 150px;
+            width: 20%;
+            background-color: rgb(255, 247, 0);
+            float: left;
+        }
+        
+        #aside1 {
+            height: 150px;
+            width: 40%;
+            background-color: rgb(184, 103, 41);
+            float: left;
+        }
+        
+        #aside2 {
+            height: 150px;
+            width: 40%;
+            background-color: rgb(72, 164, 176);
+            float: right;
+        }
+        
+        footer {
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <menu>TOP MENU</menu>
+        <header>header</header>
+        <div>
+            <div class="content">
+                <section>20%
+
+                </section>
+                <aside id="aside1">40%
+
+                </aside>
+                <aside id="aside2">40%
+
+                </aside>
+            </div>
+            <footer>Footer
+
+            </footer>
+
+
+        </div>
+</body>
+
+</html>
