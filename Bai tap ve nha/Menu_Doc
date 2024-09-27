@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px auto;
+        padding: 0px;
+    }
+    
+    .wrapper {
+        height: 700px;
+        width: 960px;
+        background-color: antiquewhite;
+        border: 1px dotted blue;
+    }
+    
+    header {
+        height: 500px;
+        width: 960px;
+        background-color: aqua;
+        position: relative;
+    }
+    
+    .content {
+        height: 500px;
+        width: 200px;
+        background-color: aquamarine;
+    }
+    
+    .menu-doc {
+        height: 500px;
+        width: 200px;
+        background-color: red;
+        float: left;
+    }
+    
+    .menu li {
+        margin: 3px;
+        height: 60px;
+        width: 160px;
+        line-height: 60px;
+        border: 1px saddlebrown;
+        border-radius: 10px;
+        list-style: none;
+        text-indent: 20px;
+        float: left;
+        background-color: bisque;
+    }
+    
+    .menu li:hover {
+        background-color: beige;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+    }
+    
+    nav {
+        position: absolute;
+    }
+    
+    .content-left {
+        height: 150px;
+        width: 759px;
+        background-color: blueviolet;
+        float: left;
+    }
+    
+    footer {
+        height: 150px;
+        width: 960px;
+        background-color: palevioletred;
+        position: relative;
+    }
+    
+    footer .div1 {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        width: 20%;
+        background-color: salmon;
+    }
+    
+    footer .div2 {
+        position: absolute;
+        top: 30px;
+        left: 500px;
+        width: 20%;
+        background-color: chocolate;
+    }
+    
+    footer .div3 {
+        position: absolute;
+        top: 30px;
+        left: 200px;
+        width: 20%;
+        background-color: coral;
+    }
+    
+    .menu li .sub-menu {
+        display: none;
+    }
+    
+    .menu li:hover .sub-menu[]
+</style>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <div class="content"></div>
+        <div class="menu-doc"></div>
+        <ul class="menu1">
+            <li></li>
+
+        </ul>
+    </div>
+    <div class="content-left"></div>
+    <div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
